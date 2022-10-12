@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./partials/head') %>
+</head>
+<body>
+    <%- include('./partials/navbar') %>
+
+    <div class="container">
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <h1 class="display-4">Information</h1>
+            <p class="display-6">Welcome...</p>
+            <p class="lead">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+            </p>
+        </div>
+        <br>
+
+        <div class="col-md-8 offset-md-2">
+            <h4 class="mb-3">Add country</h4>
+            <form class="needs-validation" novalidate="">
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="country_name">Country name</label>
+                  <input type="text" class="form-control" id="country_name" placeholder="" value="" required="">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="capital">Capital</label>
+                  <input type="text" class="form-control" id="capital" placeholder="" value="" required="">
+                </div>
+              </div>
+  
+              <div class="mb-3">
+                <label for="Languages">Languages</label>
+                <input type="text" class="form-control" id="languages" placeholder="">
+              </div>
+  
+              <div class="mb-3">
+                <label for="population">Population</label>
+                <input type="text" class="form-control" id="population" placeholder=" " required="">
+              </div>
+  
+              <div class="mb-3">
+                <label for="currency">Currency</label>
+                <input type="text" class="form-control" id="currency" placeholder=" " required="">
+              </div>
+
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary" type="submit">Submit</button>
+              </div>
+
+            </form>
+          </div>
+    </div>
+</body>
+</html>
